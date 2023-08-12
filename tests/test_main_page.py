@@ -1,6 +1,7 @@
 from pages.main_page import MainPage
 import allure
 
+
 @allure.suite('Test Main Page')
 class TestMainPage:
     @allure.step('Test fill form')

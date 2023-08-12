@@ -30,7 +30,3 @@ class MainPage(BasePage):
             self.element_is_present(self.locators.BUTTON_SEND_REQUEST).click()
         answer = self.element_is_present(self.locators.THANK)
         return answer.text
-
-
-
-
